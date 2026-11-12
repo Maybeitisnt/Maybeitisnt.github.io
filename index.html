@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Game Developer & Creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">PORTFOLIO</a>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#audio">Audio & OST</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero / About Section -->
+        <section id="about" class="hero">
+            <p class="subtitle">Game Developer & Sound Creator</p>
+            <h1 class="title">서사와 사운드로<br>세계관을 구축합니다.</h1>
+            <p class="description">
+                Unity와 C#을 기반으로 내러티브 중심의 인디 게임을 개발하며,
+                게임의 분위기를 완성하는 오리지널 사운드트랙을 작곡합니다.
+            </p>
+            <div class="tech-stack">
+                <span>Unity</span>
+                <span>C#</span>
+                <span>C</span>
+                <span>Python</span>
+                <span>Cubase</span>
+                <span>Git</span>
+            </div>
+        </section>
+
+        <!-- Game Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="grid">
+
+                <!-- Project Card 1 -->
+                <article class="card">
+                    <div class="card-thumbnail">
+                        <!-- 썸네일 이미지가 있을 경우 아래 주석을 해제하고 경로를 넣으세요 -->
+                        <!-- <img src="assets/project1.png" alt="Project Thumbnail"> -->
+                        <span class="placeholder-text">16:9 Thumbnail Image</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">2026 - In Development</div>
+                        <h3 class="card-title">Project Title 01</h3>
+                        <p class="card-desc">
+                            멀티 루트 내러티브와 퍼즐 기믹, QTE 시스템이 결합된 2D 스토리 중심 RPG 프로젝트입니다. 기획, 프로그래밍, 사운드 디렉팅을 담당하고 있습니다.
+                        </p>
+                        <div class="card-tags">
+                            <span>Unity</span>
+                            <span>C#</span>
+                            <span>Narrative RPG</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="#" target="_blank">Steam / Demo</a>
+                            <a href="#" target="_blank">Devlog</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="card">
+                    <div class="card-thumbnail">
+                        <span class="placeholder-text">16:9 Thumbnail Image</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">2026</div>
+                        <h3 class="card-title">Project Title 02</h3>
+                        <p class="card-desc">
+                            프로토타입 및 시스템을 구현한 서브 프로젝트입니다. 핵심 메커니즘 설계와 최적화된 구조 작성에 집중했습니다.
+                        </p>
+                        <div class="card-tags">
+                            <span>C#</span>
+                            <span>System Design</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="#" target="_blank">GitHub</a>
+                            <a href="#" target="_blank">Video</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Audio / OST Section -->
+        <section id="audio" class="section">
+            <h2 class="section-title">Audio & OST</h2>
+            <div class="track-list">
+
+                <div class="track-item">
+                    <div class="track-info">
+                        <span class="track-number">01</span>
+                        <div>
+                            <h4 class="track-title">Main Theme - Title Screen</h4>
+                            <p class="track-desc">Cubase | Piano & Ambient Pad</p>
+                        </div>
+                    </div>
+                    <!-- 실제 오디오 파일(mp3, wav, ogg) 경로를 넣으면 바로 재생됩니다 -->
+                    <audio controls preload="none" class="audio-player">
+                        <source src="assets/track01.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="track-item">
+                    <div class="track-info">
+                        <span class="track-number">02</span>
+                        <div>
+                            <h4 class="track-title">Battle Theme - Confrontation</h4>
+                            <p class="track-desc">Cubase | Bass Driven Rhythm & Synth</p>
+                        </div>
+                    </div>
+                    <audio controls preload="none" class="audio-player">
+                        <source src="assets/track02.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <h2 class="section-title">Contact</h2>
+            <p class="contact-desc">협업 문의나 프로젝트 관련 연락은 아래 채널로 부탁드립니다.</p>
+            <div class="contact-links">
+                <a href="mailto:your-email@example.com">Email</a>
+                <a href="https://github.com/" target="_blank">GitHub</a>
+                <a href="https://instagram.com/" target="_blank">Instagram</a>
+                <a href="https://store.steampowered.com/" target="_blank">Steam</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
